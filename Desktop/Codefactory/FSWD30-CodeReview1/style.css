@@ -1,0 +1,96 @@
+﻿* {font-family: arial;}
+
+
+
+body {width: 1200px;
+		height: 800px;}
+
+
+
+.header {background-color: rgb(37, 224, 88);
+			padding: 5px;
+			  width: 99%;}
+
+
+.container {width: 80%;}
+
+
+
+
+.text {text-align: center;
+		padding-bottom: 15px;
+		position: absolute;
+		color: snow;
+		font-size: 12pt;}
+
+
+
+ul {display: table;
+	width: 940px;
+	background-color: black;
+	padding: 10px;}
+
+
+
+
+ul li {display: table-cell;
+		float: left;}
+
+
+
+
+
+.navigationbar {width: 80%;}	
+
+
+
+
+a {display: block;
+	padding: 8px;
+	color: rgb(37, 224, 88);
+	text-decoration: none;}
+
+
+
+
+.navitext a:hover{ border-bottom: solid 1px;
+					color: yellow; }	
+		
+
+
+
+.two {position: relative;
+		left:503px;
+		bottom: 358px;}
+
+
+
+.three {position: relative;
+		left: 505px;
+		bottom: 295px;}
+
+
+
+.four {position: relative;
+		bottom: 605px;}		
+
+
+
+.one {position: relative;}		
+
+
+
+
+.art p {color: rgb(37, 224, 88)}
+
+
+
+
+
+.foot {width: 78.5%;
+		background-color: rgb(37, 224, 88);
+		position:relative;
+		bottom:550px;
+		padding: 10px;
+		text-align: center;
+		color: snow;}
