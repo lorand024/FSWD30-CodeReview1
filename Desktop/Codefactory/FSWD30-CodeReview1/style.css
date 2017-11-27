@@ -3,17 +3,18 @@
 
 
 body {width: auto;
-		height: 800px;}
+	width: 100%;
+	min-width: 400px
+}
 
 
 
 .header {background-color: rgb(223, 82, 82);
-			padding: 5px;
-			  width: 95.2%;}
+		width: 100%;	
+			}
 
 
-.container {width: 80%;
-			min-width: 400px;
+.container {
 			height: auto;}
 
 
@@ -28,7 +29,7 @@ body {width: auto;
 
 
 ul {display: table;
-	width: 940px;
+	width: 100%;
 	background-color: rgb(133, 133, 133);
 	padding: 10px;}
 
@@ -46,8 +47,6 @@ ul li {display: table-cell;
 				}	
 
 
-
-
 a {display: block;
 	padding: 8px;
 	color: snow;
@@ -59,40 +58,36 @@ a {display: block;
 .navitext a:hover{ border-bottom: solid 1px;
 					color: rgb(223, 82, 82); }	
 		
+section .toppic {
+	display: flex;
+	}
+
+section .bottompic {display: flex;}
 
 
+section img {
+	width: 100%;
 
-.two {position: relative;
-		left:510px;
-		bottom: 353px;}
-
-
-
-.three {position: relative;
-		left: 510px;
-		bottom: 260px;}
+}
 
 
+.one {width: 50%;padding: 5px; }
 
-.four {position: relative;
-		bottom: 596px;}		
+.two {width: 50%;padding: 5px;}
 
+.three {width: 50%;padding: 5px;}
 
+.four {width: 50%;padding: 5px;
+		margin-top: 116px;}
 
-.one {position: relative;}		
-
-
-
-
-.art p {color: black;}
+.images p {color: black;}
 
 
 
 
 
-.foot {width: 75.5%;
+.foot {width: 100%;
 		background-color: rgb(223, 82, 82);
-		position:relative;
 		bottom:550px;
 		padding: 10px;
 		text-align: center;
