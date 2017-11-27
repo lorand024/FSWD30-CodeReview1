@@ -7,12 +7,14 @@ body {width: auto;
 
 
 
-.header {background-color: rgb(37, 224, 88);
+.header {background-color: rgb(223, 82, 82);
 			padding: 5px;
 			  width: 95.2%;}
 
 
-.container {width: 80%;}
+.container {width: 80%;
+			min-width: 400px;
+			height: auto;}
 
 
 
@@ -27,7 +29,7 @@ body {width: auto;
 
 ul {display: table;
 	width: 940px;
-	background-color: black;
+	background-color: rgb(133, 133, 133);
 	padding: 10px;}
 
 
@@ -48,32 +50,32 @@ ul li {display: table-cell;
 
 a {display: block;
 	padding: 8px;
-	color: rgb(37, 224, 88);
+	color: snow;
 	text-decoration: none;}
 
 
 
 
 .navitext a:hover{ border-bottom: solid 1px;
-					color: yellow; }	
+					color: rgb(223, 82, 82); }	
 		
 
 
 
 .two {position: relative;
-		left:485px;
-		bottom: 370px;}
+		left:510px;
+		bottom: 353px;}
 
 
 
 .three {position: relative;
-		left: 485px;
-		bottom: 315px;}
+		left: 510px;
+		bottom: 260px;}
 
 
 
 .four {position: relative;
-		bottom: 637px;}		
+		bottom: 596px;}		
 
 
 
@@ -82,14 +84,14 @@ a {display: block;
 
 
 
-.art p {color: rgb(37, 224, 88)}
+.art p {color: black;}
 
 
 
 
 
 .foot {width: 75.5%;
-		background-color: rgb(37, 224, 88);
+		background-color: rgb(223, 82, 82);
 		position:relative;
 		bottom:550px;
 		padding: 10px;
